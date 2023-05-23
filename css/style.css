@@ -1,0 +1,491 @@
+.navColorOnscroll {
+    background-color: #2c2b2b;
+}
+
+.navbar1 {
+    transition: all  0.4s;
+    -webkit-transition: all  0.4s;
+    -moz-transition: all  0.4s;
+    -ms-transition: all  0.4s;
+    -o-transition: all  0.4s;
+}
+
+header {
+    background-image: url(../images/slider/slider-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 4.3rem;
+    color: #FF305B;
+    font-weight: 700;
+}
+
+.nav-logo {
+    color: #FF305B !important;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navLinks1 {
+    color: #FF305B ;
+}
+
+.navLinks {
+    color: white;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+.navLinks1 {
+    color: #FF305B ;
+}
+.navLinks:hover {
+    color: #FF305B !important;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+.typerTarget {
+    border-right: 1px solid white;
+    -webkit-animation: blink-caret 0.5s step-end infinite alternate;
+            animation: blink-caret 0.5s step-end infinite alternate;
+  }
+
+@keyframes blink-caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+/* #homeP::after {
+    content: "";
+    animation: typing 1.5s ease-in-out infinite alternate;
+    -webkit-animation: typing 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes typing {
+    0% {
+        content: "|";
+    }
+    3% {
+        content: "D|";
+    }
+
+    6% {
+        content: "De|";
+    }
+
+    9% {
+        content: "Des|";
+    }
+
+    12% {
+        content: "Desi|";
+    }
+
+    15% {
+        content: "Desig|";
+    }
+
+    18% {
+        content: "Design|";
+    }
+
+    21% {
+        content: "Designe|";
+    }
+
+    24% {
+        content: "Designer|";
+    }
+
+    40% {
+        content: "Designer|";
+    }
+
+    43% {
+        content: "Designe|";
+    }
+
+    46% {
+        content: "Design|";
+    }
+    49%{
+        content: "Desig|";
+    }
+    52%{
+        content: "Desi|";
+    }
+    55%{
+        content: "Des|";
+    }
+    58%{
+        content: "De|";
+    }
+    61%{
+        content: "D|";
+    }
+    64%{
+        content: "|";
+    }
+    67%{
+        content: "D|";
+    }
+    71%{
+        content: "De|";
+    }
+    74%{
+        content: "Dev|";
+    }
+    77%{
+        content: "Deve|";
+    }
+    80%{
+        content: "Devel|";
+    }
+    83%{
+        content: "Develo|";
+    }
+    86%{
+        content: "Develop|";
+    }
+    89%{
+        content: "Develope|";
+    }
+    92%{
+        content: "Developer|";
+    }
+    100%{
+        content: "Developer|";
+    }
+} */
+
+.profileImg {
+    transform: translate(10%, 10%);
+    -webkit-transform: translate(10%, 10%);
+    -moz-transform: translate(10%, 10%);
+    -ms-transform: translate(10%, 10%);
+    -o-transform: translate(10%, 10%);
+}
+
+.profileImg figcaption {
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    opacity: 0;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+.profileImg:hover figcaption {
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    opacity: 1;
+}
+
+.profileTitle {
+    position: relative;
+}
+
+.profileTitle::before {
+    content: "";
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    left: -2%;
+    background-color: #FF305B;
+}
+.ProfilePhoto{
+    width: 90% !important;
+}
+
+.profileButtons {
+    background-color: #FF305B;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+
+.profileButtons:hover {
+    background-color: #EC2403;
+}
+
+#Services{
+    background-color: #F1F1F1;
+}
+.line1{
+    width: 70px;
+    height: 0.5px;
+    background-color: #FF305B;
+    margin: auto;
+}
+.line2{
+    width: 150px;
+    height: 0.5px;
+    background-color: #FF305B;
+    margin: auto;
+}
+#Services i{
+    color: #FF305B;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+.ServicesIcons{
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+.ServicesIcons:hover{
+    background-color: #FFFFFF;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.373);
+}
+.ServicesIcons:hover i{
+    transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+}
+.imgCaption{
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.516);
+    opacity: 0;
+    transition: all 0.5s;
+}
+.LayerIcons{
+    color: white;
+}
+.LayerIcons:hover{
+    color: #FF305B;
+    transition: 0.2s all;
+}
+.imgCaption h5{
+    color:#FFFFFF;
+}
+.WorkContent:hover .imgCaption{
+    opacity: 1;
+}
+.WorkIcons{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    transition: 0.5s all;
+    background-color:black;
+    color:white;
+}
+.WorkIcons:hover{
+    background-color:white;
+    color:black;
+}
+.WorkIcons a{
+    color: white;
+}
+.WorkIcons:hover a{
+    color:black;
+}
+.nav-pills{
+    --bs-nav-pills-link-active-bg:transparent;
+}
+.myBtn1{
+    color: #FF305B !important;
+}
+.myBtn{
+    color: black;
+}
+.myBtn:hover{
+    color: #FF305B !important;
+}
+
+.Testimonial{
+    background-color: #F1F1F1;
+}
+.sec4child i{
+    color:#FF305B ;
+}
+.clientCard{
+    background-color: #F1F1F1;
+    position: relative;
+    overflow: hidden;
+}
+.clientCard::before{
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 0px;
+    left: 0px;
+    background-color: #FF305B;
+    transform: rotate(45deg) translate(-80%);
+}
+.clientCard figure{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 0px !important;
+    position: absolute;
+    z-index: 999;
+    top: 15%;
+    left:3%
+}
+.cardBtns div{
+    width: 10px;
+    margin-right: 5px;
+    height: 10px;
+    border:1px solid #FF305B;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#card1Btn{
+    width: 30px;
+    border-radius: 5px;
+    background-color: #FF305B
+}
+#Blog{
+    background-color: #F1F1F1;
+}
+.BlogCard{
+    background-color: white;
+}
+.BlogCard a{
+    transition: 0.3s all;
+}
+.BlogCard h5{
+    transition: 0.3s all;
+    cursor: pointer;
+}
+.BlogCard h5:hover{
+    color: #FF305B !important
+}
+.BlogCard a:hover{
+    color: #FF305B !important;
+}
+
+.MyInputs:focus{
+    box-shadow:unset !important;
+    border:0px;
+    outline:2px solid #FF305B !important;
+}
+
+footer{
+    background-color: #333333;
+}
+.footerIcons{
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.Theme-fair{
+    color: #FF305B;
+    transition: all 0.2s;
+}
+.Theme-fair:hover{
+    text-decoration: underline !important;
+}
+.footerIcons:hover{
+    color: #FF305B !important;
+}
+.myToggeler{
+    width: 100%;
+    height: 1px; 
+    background-color: white; 
+    border-radius: 1px;
+}
+.toTop{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF305B;
+    color: white;
+    cursor: pointer;
+}
+.slider-arrows span{
+    background-color: #FF305B !important;
+}
+
+
+@media screen and (max-width:600px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+    #card2,#card1 p{
+        font-size: 10px !important;
+        padding: 0px 10px !important;
+    }
+}
+@media screen and (max-width:1000px) {
+    #Testimonial .container-fluid{
+        width: 100% !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    #Testimonial .container-fluid .row{
+        padding: 0px !important;
+    }
+    .clientCard{
+        width: 100% !important;
+        text-align: center !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .clientCard figcaption{
+        margin: 0px !important;
+        padding: 0px 10px !important;
+    }
+    .clientCard::before{
+        transform:rotate(45deg) translate(-95%);
+    }
+    .clientCard figure{
+        position: unset;
+        margin: auto !important;
+    }
+    #Contact .container{
+        padding: 0px !important;
+    }
+    #Contact .row{
+        padding: 0px !important;
+        margin: 10px !important;
+    }
+    #Contact .row .col-12{
+        padding-right: 0px !important;
+    }
+    .ProfilePhoto{
+        margin: auto;
+    }
+
+}
+
